@@ -1,60 +1,65 @@
 {
-  "name": "سورس نايترو | Source NA",
-  "description": "اللهم صلِ على محمد وآل محمد",
+  "name": "سورس نايترو -  NA-ARABIC",
+  "description": "أهلا بك في سورس نايترو  - ",
   "logo": "https://telegra.ph/file/dc66abef3aee252e83348.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jepthoniq/lMl10l/",
+  "repository": "https://github.com/Comanda56/terpo/tree/main",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "description": "اســم حســـابك التلـي",
       "value": ""
     },
     "APP_ID": {
-      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
       "value": ""
     },
     "API_HASH": {
-      "description": "هنا ضع الايبي هاش الخاص بك",
+      "description": "كـود ايبي هـاش〔 Api hash 〕..",
       "value": ""
     },
     "ENV": {
-      "description": "لا تغير هذه القيمه",
+      "description": "لا تغيــرهـــا",
       "value": "ANYTHING"
     },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغيــرهـــا",
+      "value": "."
+    },
     "STRING_SESSION": {
-      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
+      "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه وتنسـخ الكـود لهنـا",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
       "value": "",
       "required": false
     },
-    "TG_BOT_USERNAME": {
-      "description": "هنا ضع معرف بوتك بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "هنا ضع توكن بوتك الذي صنعته",
-      "value": ""
-    },
     "TZ": {
-      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
       "value": "Africa/Cairo",
       "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "https://github.com/Comanda56/terpo/tree/main",
+      "required": false
     }
-  },
+    },
   "addons": [{
     "plan": "heroku-postgresql",
     "options": {
@@ -62,7 +67,7 @@
     }
   }],
   "buildpacks": [{
-    "url": "https://github.com/jepthoniq/heroku-buildpack-ffmpeg-latest"
+    "url": "https://github.com/Tepthonee/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
   },{
@@ -70,12 +75,13 @@
   },{
     "url": "https://github.com/riganf/heroku-buildpack-p7zip"
   },{
-    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
-  },{
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
